@@ -100,7 +100,8 @@ This is like having a secure, private pneumatic tube connected directly from you
 Use a NAT Gateway when your instances need to talk to the entire internet (e.g., pip install, apt-get update, or hitting a random API).
 Use an Endpoint when your instances need to talk to one specific service (e.g., uploading data to S3 or querying a Snowflake database).
 
-## Tip: Always check if a Gateway Endpoint exists for your service first (like S3). It's free and takes 30 seconds to set up, saving you significantly on NAT Gateway data charges.
+## Tip:
+Always check if a Gateway Endpoint exists for your service first (like S3). It's free and takes 30 seconds to set up, saving you significantly on NAT Gateway data charges.
 
 ## The blueprint of the AWS VPC 
 I hope given below mind map would help you to understand:
